@@ -13,11 +13,11 @@
     <link rel="stylesheet" href="lib/css/zenburn.css">
     <!-- Printing and PDF exports -->
     <script>
-    var link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.type = 'text/css';
-    link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
-    document.getElementsByTagName('head')[0].appendChild(link);
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
     </script>
     <!--[if lt IE 9]>
         <script src="lib/js/html5shiv.js"></script>
@@ -31,72 +31,73 @@
             <section>
                 <figure>
                     <h2 class="intro">Physical Computing: Day 1</h2 class="intro">
-                        <h2 class="intro">Physical Computing: Day 1</h2 class="intro">
-                        <h2 class="intro">Physical Computing: Day 1</h2 class="intro">
-                        <h2 class="intro">Physical Computing: Day 1</h2 class="intro">  
-                        <h2 class="intro">Physical Computing: Day 1</h2 class="intro">
-                                         
-                    </figure>
-                </section>
-                <section data-background="img/evil-robot-glitch-remix.svg" data-background-transition="zoom">
-                    <p>Slides are here: <a href="http://mhellar.github.io/ga_physcomp/1">http://mhellar.github.io/physcomp16</a></p>
-                    <br>
-                    <p>Grab the code here: <a href="http://bit.ly/2lNgyuu">http://bit.ly/2lNgyuu</a></p>
-                </section>
+                    <h2 class="intro">Physical Computing: Day 1</h2 class="intro">
+                    <h2 class="intro">Physical Computing: Day 1</h2 class="intro">
+                    <h2 class="intro">Physical Computing: Day 1</h2 class="intro">
+                    <h2 class="intro">Physical Computing: Day 1</h2 class="intro">
+
+                </figure>
+            </section>
+            <section data-background="img/evil-robot-glitch-remix.svg" data-background-transition="zoom">
+                <p>Slides are here: <a href="http://mhellar.github.io/ga_physcomp/1">http://mhellar.github.io/physcomp16</a></p>
+                <br>
+                <p>Grab the code here: <a href="http://bit.ly/2lNgyuu">http://bit.ly/2lNgyuu</a></p>
+            </section>
 
 
+            <section>
+                <ul>
+                    <h3>Topics for This Week:</h3>
+                    <li class="fragment">What is a Microcontroller?</li>
+                    <li class="fragment">Introduction to Arduino</li>
+                    <li class="fragment">Building your first circuit</li>
+                    <li class="fragment">Writing a program to control digital output</li>
+                </ul>
+            </section>
+            <section>
+
                 <section>
-                    <ul>
-                        <h3>Topics for This Week:</h3>
-                        <li class="fragment">What is a Microcontroller?</li>
-                        <li class="fragment">Introduction to Arduino</li>
-                        <li class="fragment">Building your first circuit</li>
-                        <li class="fragment">Writing a program to control digital output</li>
-                    </ul>
-                </section>
-                <section>
-                    
-                <section>                    
-                        ￼<h3>WHAT IS A MICROCONTOLLER:</h3>
-                        <p>
-We know what a computer looks like. It usually has a keyboard, monitor, CPU (Central Processing Unit), printer, and a mouse.These types of computers, like the Mac or PC, are
-primarily designed to communicate (or “interface”) with humans.
-</p>
-<a href="#" class="navigate-down">
-                        </a>
-                </section>
-                <section>                    
-                        ￼
-                        <p>
-A microcontroller is a self-contained system with peripherals, memory and a processor that can be used as an embedded system. Most programmable microcontrollers that are used today are embedded in other consumer products or machinery including phones, peripherals, automobiles and household appliances for computer systems.</p>
-                </section>
-                <section>                    
-                        ￼
-                        <p>
-We call these devices “microcontrollers”. Micro because they’re small, and controller because they “control” machines, gadgets, whatever.
-They’re cool because, you can build a machine or device,
-write programs to control it and then let it work for you automatically.</p>
+                    ￼
+                    <h3>WHAT IS A MICROCONTOLLER:</h3>
+                    <p>
+                        We know what a computer looks like. It usually has a keyboard, monitor, CPU (Central Processing Unit), printer, and a mouse.These types of computers, like the Mac or PC, are primarily designed to communicate (or “interface”) with humans.
+                    </p>
+                    <a href="#" class="navigate-down">
+                    </a>
                 </section>
                 <section>
-                        ￼
-                        <img src="img/furby.jpg"  height="220" alt="">
-                        <img src="img/nest.jpg" height="220" alt="">
-                        <img src="img/po.jpg" height="220" alt="">
-                        <img src="img/linn.jpg" height="220" alt="">
+                    ￼
+                    <p>
+                        A microcontroller is a self-contained system with peripherals, memory and a processor that can be used as an embedded system. Most programmable microcontrollers that are used today are embedded in other consumer products or machinery including phones,
+                        peripherals, automobiles and household appliances for computer systems.</p>
+                </section>
+                <section>
+                    ￼
+                    <p>
+                        We call these devices “microcontrollers”. Micro because they’re small, and controller because they “control” machines, gadgets, whatever. They’re cool because, you can build a machine or device, write programs to control it and then let it work for you
+                        automatically.
+                    </p>
+                </section>
+                <section>
+                    ￼
+                    <img src="img/furby.jpg" height="220" alt="">
+                    <img src="img/nest.jpg" height="220" alt="">
+                    <img src="img/po.jpg" height="220" alt="">
+                    <img src="img/linn.jpg" height="220" alt="">
                 </section>
                 <section>
                     <h2>There are many diiferent kinds of microcontrollers</h2>
-            </section>
-            <section data-background="img/mc-grid.jpg" data-background-size="1000px" data-background-transition="zoom">
-            </section>
-            <section data-background="img/part.png" data-background-size="1200px" data-background-transition="zoom">
-            </section>
-            <section>
-                ￼
-                <img src="img/lbb.png" height="250" alt="">
-                <img src="img/flora.jpg" height="250" alt="">
-                <img src="img/trinket.jpg" height="250" alt="">
-            </section>
+                </section>
+                <section data-background="img/mc-grid.jpg" data-background-size="1000px" data-background-transition="zoom">
+                </section>
+                <section data-background="img/part.png" data-background-size="1200px" data-background-transition="zoom">
+                </section>
+                <section>
+                    ￼
+                    <img src="img/lbb.png" height="250" alt="">
+                    <img src="img/flora.jpg" height="250" alt="">
+                    <img src="img/trinket.jpg" height="250" alt="">
+                </section>
             </section>
             </section>
             <section>
@@ -113,41 +114,141 @@ write programs to control it and then let it work for you automatically.</p>
                     </a>
                 </section>
                 <section>
-                    <a href="https://www.arduino.cc/"><h1>www.arduino.cc</h1></a>
+                    <a href="https://www.arduino.cc/">
+                        <h1>www.arduino.cc</h1>
+                    </a>
                 </section>
             </section>
             <section>
-                <section>
-                    <h3>Physical Computing</h3>
-                    <p> Physical computing, in the broadest sense, means building interactive physical systems by the use of software and hardware that can sense and respond to the analog world. </p>
+                <h1>Some History...</h1>
+
+            </section>
+
+            <section>
+                <h3>Design by Numbers 1999</h3>
+                <img src="img/21.jpg" height="400">
+                <br>
+                <div><img src="img/maeda.jpg" height="80">
+                    <h4>John Maeda</h4>
+                </div>
+                <br>
+            </section>
+
+            <section>
+                <h3>Processing 2001 - Present</h3>
+                <img src="img/24-1.jpg" height="500"><img src="img/24-2.jpg" height="500">
+                <h3>Casey Reas and Ben Fry</h3>
+                <a href="#" class="navigate-down">
+                </a>
+            </section>
+            <section>
+                <h3>Casey Reas, <i>Articulate</i>(2003)
+                    <img src="img/articulate.jpg" height="400">
+
+            </section>
+
+            <section>
+                <h3>Arduino 2005 - Present</h3>
+                <img src="img/ard_ide.jpg" height="400">
+                <img src="img/ard.jpg" height="400">
+            </section>
+            <section>
+                <h3>Markus Kayser: <i>Solar-sintered Bowl.</i> 2011</h3>
+                <img src="img/ss3.jpg" height="250">
+                <img src="img/ss1.png" height="250">
+                <br>
+                <img src="img/ss2.jpg" height="250">
+            </section>
+            <section>
+                <blockquote cite="http://example.com/facts">
+                    “The two most important introductions for art in the past 20 years have been the Arduino and Processing,”
                     <br>
-                    <img src="img/headphone.jpg" height="400">
-                    <a href="#" class="navigate-down">
-                    </a>
-                </section>
-                <section data-background="img/Daniel-Rozin-Penguin-Mirror-1.gif" data-background-size="1000px" data-background-transition="zoom">
-                </section>
-                <section>
-                    <p>In the past, using electronics meant having to deal with engineers, and building circuits one small component at a time.These issues kept creative people from experimenting with the medium directly. In recent years, micro- controllers have become cheaper and easier to use.</p>
-                </section>
-                <section>
-                    <p>The progress that has been made with Arduino has been to bring these tools one step closer to the non expert allowing people to start building things after only two or three days of a workshop.
-                        <br>
-                        <br> With Arduino, a designer or artist can get to know the basics of electronics and sensors very quickly and can start building prototypes with very little investment.</p>
-                </section>
-                <section>
-                    <h3>Some Examples</h3>
-                    <a href="http://www.jimcampbell.tv/portfolio/installations/shadow_for_heisenberg/">Shadow for Heisenberg</a>
+                    <br> - Paola Antonelli, senior curator in the Department of Architecture and Design at the Museum of Modern Art.
+                </blockquote>
+            </section>
+
+
+            <section>
+                <h3>Physical Computing</h3>
+                <p> Physical computing, in the broadest sense, means building interactive physical systems by the use of software and hardware that can sense and respond to the analog world. </p>
+                <br>
+                <img src="img/headphone.jpg" height="400">
+                <a href="#" class="navigate-down">
+                </a>
+            </section>
+            <section data-background="img/Daniel-Rozin-Penguin-Mirror-1.gif" data-background-size="1000px" data-background-transition="zoom">
+            </section>
+            <section>
+                <p>In the past, using electronics meant having to deal with engineers, and building circuits one small component at a time.These issues kept creative people from experimenting with the medium directly. In recent years, micro- controllers
+                    have become cheaper and easier to use.</p>
+            </section>
+            <section>
+                <p>The progress that has been made with Arduino has been to bring these tools one step closer to the non expert allowing people to start building things after only two or three days of a workshop.
                     <br>
-                    <a href="https://learn.adafruit.com/bedazzler/overview">Bedazzler</a>
-                    <br>
-                    <a href="http://www.smoothware.com/danny/woodenmirrormov.html">Woden Mirror</a>
-                    <br>
-                    <a href="http://highlowtech.org/?p=2286">Hi Low Tech</a>
-                    <br>
-                    <a href="http://www.creativeapplications.net/openframeworks/irregular-polyhedron-study-1-vertex-edge-and-volume/">Irregular Polyhedron</a>
-                    <br>
-                </section>
+                    <br> With Arduino, a designer or artist can get to know the basics of electronics and sensors very quickly and can start building prototypes with very little investment.</p>
+            </section>
+
+            <section>
+                <h3>Some Examples</h3>
+            </section>
+            <section>
+                <img src="img/rv_schem.jpg" height="500"><br>
+                <p>Greg Lynn, Scale model for RV Prototype 2012</p>
+                <aside class="notes">
+                    GREG LYNN was an innovator in redefining the medium of design with digital technology as well as pioneering the fabrication and manufacture of complex functional and ergonomic forms using CNC machinery. The buildings, projects, publications, teachings
+                    and writings associated with his office have been influential in the acceptance and use of advanced materials and technologies for design and fabrication.<br><br> For Biennale Interieur 2012 he created a prototype
+                    for a motorised compact-living cocoon that rotates to provide space for relaxing, sleeping and bathing <br><br> This brings a new layer of enthusiasm and activity to the typical home, similar to that of an exercise machine or hamster
+                    ball. the living environment responds to its surrounding landscape so that it is optimized to the weather, daylight and temperature through its rotational actions. taking influence from the inner hull of a boat, the bespoke dwelling
+                    proposes a new typology which was once sedentary, into one based on movement and interaction.
+                </aside>
+            </section>
+            <section>
+                <video width="640" height="480" loop="loop" controls>
+                    <source src="img/rvvideo.mp4" type="video/mp4">
+                </video>
+                <aside class="notes">
+                    RV Prototype House is a 1/5th scale model of a house that increases living space by rotating in two axes on a robotic base. In addition to a floor in one orientation, one wall and the ceiling surface can be rotated as new floors. 150m of living surface
+                    is realized within a 60m footprint. Made of a lightweight cored carbon fiber fabric the entire shell weighs less than 50 kilos allowing it to rotate freely.
+                </aside>
+            </section>
+            <section>
+                <img src="img/RV_Prototype_12.jpg" height="600"><br>
+                <aside class="notes">
+                    The RV prototype came as a 1/5 scale model and a 1/20 scale model. The clip we just watched was the 1/5 scale model and this is an image of the 1/20 scale model which was acquired by SFMoMA in 2015.<br><br>The work had been on display
+                    through Oct, Additionally a potential upcoming loan requst was made. As we had a period after de-installation to spend time with it SFMoMA's media conservator Martina Haidvogl coordinated an extensive documentation session with Sean
+                    Boyd from Lynn's studio and myself to document it's electronic and mechanical operation.
+                </aside>
+            </section>
+            <section>
+                <img src="img/RV_Prototype_10.jpg" height="600"><br>
+                <aside class="notes">
+                    The shell was constructed of a carbon fiber shell that had been cast in a CNC'd mold. In the interior was furniture that was 3d-printed and was gimballed so that it was always in balance with the rotation of the house.
+                </aside>
+            </section>
+            <section>
+                <img src="img/RV_Prototype_2-.jpeg" height="600"><br>
+                <aside class="notes">
+                    The shell sits on top of a fiberglass base that contains gearing, timing belts and 2 NEMA 23 stepper motors tht control the pan and tilt.
+                </aside>
+            </section>
+            <section>
+                <img src="img/osc.png" height="400"><br>
+                <aside class="notes">
+                    In addition a tablet app was developed using an application called TouchOSC which allows for manual control over a wireless network at the table has no ethernet. It can also put send the back into demo mode.
+                </aside>
+            </section>
+            <section>
+                <h3>Some Examples</h3>
+                <a href="http://www.jimcampbell.tv/portfolio/installations/shadow_for_heisenberg/">Shadow for Heisenberg</a>
+                <br>
+                <a href="https://learn.adafruit.com/bedazzler/overview">Bedazzler</a>
+                <br>
+                <a href="http://www.smoothware.com/danny/woodenmirrormov.html">Woden Mirror</a>
+                <br>
+                <a href="http://highlowtech.org/?p=2286">Hi Low Tech</a>
+                <br>
+                <a href="http://www.creativeapplications.net/openframeworks/irregular-polyhedron-study-1-vertex-edge-and-volume/">Irregular Polyhedron</a>
+                <br>
             </section>
             <section>
                 <section>
@@ -285,7 +386,9 @@ LED Resistor calculator: <a href="http://led.linear1.org/1led.wiz"></a></p>
             </section>
             <section>
                 <section>
-                    <p>This next lesson get you up and running with the Arduino software and uploading a sketch to the Arduino board. Once you've completed this step we can continue to the really interesting stuff, which is when we start writing our own sketches!</p>
+                    <p>This next lesson get you up and running with the Arduino software and uploading a sketch to the Arduino board. Once you've completed this step we can continue to the really interesting stuff, which is when we start writing our own
+                        sketches!
+                    </p>
                     <a href="#" class="navigate-down">
                     </a>
                 </section>
@@ -298,8 +401,7 @@ LED Resistor calculator: <a href="http://led.linear1.org/1led.wiz"></a></p>
                     <p>Parts are pretty much the same from the first excercise</p>
                 </section>
                 <section>
-                    <h3>Connect GND on the arduino
-to the ground strip on the breadboard</h3>
+                    <h3>Connect GND on the arduino to the ground strip on the breadboard</h3>
                     <img src="img/led_step1.png" height="450">
                 </section>
                 <section>
@@ -376,7 +478,8 @@ void loop() {
                         <pre><b>void setup()<br>
 {
 pinMode(LED, OUTPUT); // sets the digital // pin as output
-}<br><br></b></pre> pinMode tells Arduino how to configure a certain pin. Digital pins can be used either as INPUT or OUTPUT. In this case, we need an output pin to control our LED, so we place the number of the pin and its mode inside the parentheses.
+}<br><br></b></pre> pinMode tells Arduino how to configure a certain pin. Digital pins can be used either as INPUT or OUTPUT. In this case, we need an output pin to control our LED, so we place the number of the pin and its mode
+                        inside the parentheses.
                         <br>
                         <br> pinMode is a function, and the words (or numbers) specified inside the parentheses are arguments. INPUT and OUTPUT are keywords in the Arduino language.</p>
                 </section>
@@ -401,7 +504,9 @@ pinMode(LED, OUTPUT); // sets the digital // pin as output
                         <br>
                         <br> The magic here is when software becomes hardware.When you write digitalWrite(LED, HIGH), it turns the output pin to 5 V, and if you connect an LED, it will light up.
                         <br>
-                        <br> So at this point in your code, an instruction in software makes something happen in the physical world by controlling the flow of electricity to the pin. We can translate this into something more visible with the LED as our actuator.</p>
+                        <br> So at this point in your code, an instruction in software makes something happen in the physical world by controlling the flow of electricity to the pin. We can translate this into something more visible with the LED as our
+                        actuator.
+                    </p>
                 </section>
                 <section>
                     <p>
@@ -504,21 +609,21 @@ void loop()
                 </section>
                 <section>
                     <ul>
-                    <li>Parts for this project</li>
-<li>Solderless Breadboard</li>
-<li>9 x Flexible Wire Jumpers - 8 x LEDs(red)</li>
-<li>8 x 220 Ohm Resistors(red, red violet)</li>
-<li>Arduino Duo board</li>
-<li>USB Cable</li>
+                        <li>Parts for this project</li>
+                        <li>Solderless Breadboard</li>
+                        <li>9 x Flexible Wire Jumpers - 8 x LEDs(red)</li>
+                        <li>8 x 220 Ohm Resistors(red, red violet)</li>
+                        <li>Arduino Duo board</li>
+                        <li>USB Cable</li>
                     </ul>
                 </section>
                 <section data-background="img/knightSteps/knightSteps.001.jpg" data-background-size="1000px">
                 </section>
-<section data-background="img/knightSteps/knightSteps.002.jpg" data-background-size="1000px" data-background-transition="zoom">
+                <section data-background="img/knightSteps/knightSteps.002.jpg" data-background-size="1000px" data-background-transition="zoom">
                 </section>
-<section data-background="img/knightSteps/knightSteps.003.jpg" data-background-size="1000px" data-background-transition="zoom">
+                <section data-background="img/knightSteps/knightSteps.003.jpg" data-background-size="1000px" data-background-transition="zoom">
                 </section>
-<section data-background="img/knightSteps/knightSteps.004.jpg" data-background-size="1000px" data-background-transition="zoom">
+                <section data-background="img/knightSteps/knightSteps.004.jpg" data-background-size="1000px" data-background-transition="zoom">
                 </section>
                 <section data-background="img/72-points-mesh.svg" data-background-repeat="repeat" data-background-size="100px" data-background-transition="zoom">
                     <h2 class="intro">Upload 'KnightRider1.ino'</h2>
@@ -527,58 +632,60 @@ void loop()
                     <h2 class="intro">Upload 'KnightRiderForLoop.ino'</h2>
                 </section>
                 <section>
-                <a href="http://playground.arduino.cc/uploads/Main/arduino_comic_v0004.pdf">Homework!</a>
+                    <p>Oh no, there's a bug in the code. Fix it so the Knight Rider can finish the mission</p>
                 </section>
-
+                <section>
+                    <a href="http://playground.arduino.cc/uploads/Main/arduino_comic_v0004.pdf">Homework!</a>
+                </section>
             </section>
         </div>
     </div>
     <script src="lib/js/head.min.js"></script>
     <script src="js/reveal.js"></script>
     <script>
-    // Full list of configuration options available at:
-    // https://github.com/hakimel/reveal.js#configuration
-    Reveal.initialize({
-        controls: true,
-        progress: true,
-        history: true,
-        center: true,
+        // Full list of configuration options available at:
+        // https://github.com/hakimel/reveal.js#configuration
+        Reveal.initialize({
+            controls: true,
+            progress: true,
+            history: true,
+            center: true,
 
-        transition: 'convex', // none/fade/slide/convex/concave/zoom
+            transition: 'convex', // none/fade/slide/convex/concave/zoom
 
-        // Optional reveal.js plugins
-        dependencies: [{
-            src: 'lib/js/classList.js',
-            condition: function() {
-                return !document.body.classList;
-            }
-        }, {
-            src: 'plugin/markdown/marked.js',
-            condition: function() {
-                return !!document.querySelector('[data-markdown]');
-            }
-        }, {
-            src: 'plugin/markdown/markdown.js',
-            condition: function() {
-                return !!document.querySelector('[data-markdown]');
-            }
-        }, {
-            src: 'plugin/highlight/highlight.js',
-            async: true,
-            condition: function() {
-                return !!document.querySelector('pre code');
-            },
-            callback: function() {
-                hljs.initHighlightingOnLoad();
-            }
-        }, {
-            src: 'plugin/zoom-js/zoom.js',
-            async: true
-        }, {
-            src: 'plugin/notes/notes.js',
-            async: true
-        }]
-    });
+            // Optional reveal.js plugins
+            dependencies: [{
+                src: 'lib/js/classList.js',
+                condition: function() {
+                    return !document.body.classList;
+                }
+            }, {
+                src: 'plugin/markdown/marked.js',
+                condition: function() {
+                    return !!document.querySelector('[data-markdown]');
+                }
+            }, {
+                src: 'plugin/markdown/markdown.js',
+                condition: function() {
+                    return !!document.querySelector('[data-markdown]');
+                }
+            }, {
+                src: 'plugin/highlight/highlight.js',
+                async: true,
+                condition: function() {
+                    return !!document.querySelector('pre code');
+                },
+                callback: function() {
+                    hljs.initHighlightingOnLoad();
+                }
+            }, {
+                src: 'plugin/zoom-js/zoom.js',
+                async: true
+            }, {
+                src: 'plugin/notes/notes.js',
+                async: true
+            }]
+        });
     </script>
 </body>
 
